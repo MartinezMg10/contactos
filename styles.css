@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100vh;
+    width: 100vw;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.imagenes{
+    height: 20vh;
+    background-color: black;
+}
+
+.imagenes img{
+    height: 20vh;
+    width: 10vw;
+}
+
+.container_principal{
+    height: 80vh;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+}
+
+.caja{
+    height: 75vh;
+    background-color: blueviolet;
+    width: 70vw;
+    text-align: center;
+}
+
+
+.caja1{
+    padding-top: 20px;
+    height: 45vh;
+    display: flex;
+    border: 1px solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+.caja1 input,select{
+    height: 40px;
+    margin: 15px 20px;
+    font-size: 24px;
+}
+
+.botones{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.botones button{
+    height: 40px;
+    width: 40%;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+.caja_uno{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.caja_dos{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja_dos img{
+    width: 80%;
+    height: 80%;
+}
+
+.datos{
+    display: flex;
+    height: 20vh;
+    border: 1px solid;
+    margin-right: 20px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
