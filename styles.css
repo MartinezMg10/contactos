@@ -16,7 +16,6 @@ html,body{
 
 .imagenes{
     height: 20vh;
-    background-color: black;
 }
 
 .imagenes img{
@@ -26,7 +25,6 @@ html,body{
 
 .container_principal{
     height: 80vh;
-    background-color: aqua;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,7 +36,6 @@ h1{
 
 .caja{
     height: 75vh;
-    background-color: blueviolet;
     width: 70vw;
     text-align: center;
 }
